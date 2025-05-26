@@ -1,0 +1,69 @@
+additionalProperties:
+  formFields:
+    - default: "always"
+      edit: true
+      envKey: RESTART_POLICY
+      labelEn: Restart Policy
+      labelZh: 重启策略
+      required: true
+      type: select
+      values:
+        - label: "Always"
+          value: "always"
+        - label: "Unless Stopped"
+          value: "unless-stopped"
+        - label: "On Failure"
+          value: "on-failure"
+        - label: "No"
+          value: "no"
+    - default: "./config"
+      edit: true
+      envKey: CONFIG_PATH
+      labelEn: CONFIG Path
+      labelZh: 配置路径
+      required: true
+      type: text
+    - default: "Asia/Shanghai"
+      edit: true
+      envKey: TIME_ZONE
+      labelEn: Time Zone
+      labelZh: 时区
+      required: true
+      type: text
+    - default: ""
+      edit: true
+      envKey: TOKEN
+      labelEn: DDNSTO Token
+      labelZh: DDNSTO Token
+      required: true
+      type: text
+    - default: 0
+      edit: true
+      envKey: DEVICE_IDX
+      labelEn: Device Index
+      labelZh: 默认 0，如果设备 ID 重复则为 1-100 之间
+      required: true
+      type: number
+    - default: 0
+      edit: true
+      envKey: UID
+      labelEn: User ID
+      labelZh: User ID
+      required: true
+      type: number
+    - default: 0
+      edit: true
+      envKey: GID
+      labelEn: Group ID
+      labelZh: Group ID
+      required: true
+      type: number
+    - default: "/etc/localtime"
+      edit: true
+      envKey: LocalTime
+      labelEn: Local Time
+      labelZh: 本地时间
+      required: true
+      type: text
+      
+      

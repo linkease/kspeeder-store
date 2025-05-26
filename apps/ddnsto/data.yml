@@ -1,0 +1,14 @@
+additionalProperties:
+  key: ddnsto
+  name: ddnsto
+  tags:
+    - Tool
+  shortDescZh: DDNSTO 帮助你快速外网穿透访问你的局域网设备，无需公网 IP
+  shortDescEn: DDNSTO helps you quickly access your LAN device without public IP
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://web.ddnsto.com/
+  github: https://github.com/linkease/docker_ddnsto
+  document: https://doc.linkease.com/zh/guide/ddnsto/

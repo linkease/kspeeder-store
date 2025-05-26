@@ -1,0 +1,96 @@
+additionalProperties:
+  formFields:
+    - default: "super_random_string"
+      edit: true
+      envKey: NEXTAUTH_SECRET
+      labelEn: NextAuth Secret
+      labelZh: NextAuth 密钥
+      required: true
+      type: text
+    - default: "another_random_string"
+      edit: true
+      envKey: MEILI_MASTER_KEY
+      labelEn: Meilisearch Master Key
+      labelZh: Meilisearch 主密钥
+      required: true
+      type: text
+    - default: "http://localhost:3000"
+      edit: true
+      envKey: NEXTAUTH_URL
+      labelEn: NextAuth URL
+      labelZh: NextAuth 地址
+      required: true
+      type: text
+    - default: ""
+      edit: true
+      envKey: OPENAI_API_KEY
+      labelEn: OpenAI API Key
+      labelZh: OpenAI API 密钥
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: OPENAI_BASE_URL
+      labelEn: OpenAI Base URL
+      labelZh: OpenAI 基础地址
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: OLLAMA_BASE_URL
+      labelEn: Ollama Base URL
+      labelZh: Ollama 基础地址
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: INFERENCE_TEXT_MODEL
+      labelEn: Text Inference Model
+      labelZh: 文本推理模型
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: INFERENCE_IMAGE_MODEL
+      labelEn: Image Inference Model
+      labelZh: 图像推理模型
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: EMBEDDING_TEXT_MODEL
+      labelEn: Text Embedding Model
+      labelZh: 文本嵌入模型
+      required: false
+      type: text
+    - default: ""
+      edit: true
+      envKey: INFERENCE_CONTEXT_LENGTH
+      labelEn: Inference Context Length
+      labelZh: 推理上下文长度
+      required: false
+      type: number
+    - default: ""
+      edit: true
+      envKey: INFERENCE_LANG
+      labelEn: Inference Language
+      labelZh: 推理语言
+      required: false
+      type: text
+    - default: "true"
+      edit: true
+      envKey: DISABLE_NEW_RELEASE_CHECK
+      labelEn: Disable New Release Check
+      labelZh: 禁用新版本检查
+      required: false
+      type: select
+      values:
+        - label: "是"
+          value: "true"
+        - label: "否"
+          value: "false"
+      
+      
+      
+      
+      

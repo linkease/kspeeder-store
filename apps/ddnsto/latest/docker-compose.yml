@@ -1,0 +1,15 @@
+version: '2'
+services:
+    ddnsto:
+        image: linkease/ddnsto
+        container_name: ${CONTAINER_NAME}
+        restart: ${RESTART_POLICY}
+        environment:
+            - TOKEN=${TOKEN}
+            - DEVICE_IDX=${DEVICE_IDX}
+            - PUID=${UID}
+            - PGID=${GID}
+            - TZ=${TIME_ZONE}
+        volumes:
+            - "${LocalTime}:/etc/localtime:ro"
+            - "${CONFIG_PATH}:/ddnsto-config"

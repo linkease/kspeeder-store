@@ -1,0 +1,16 @@
+version: '2'
+services:
+    linkease:
+        image: linkease/linkease
+        container_name: ${CONTAINER_NAME}
+        restart: ${RESTART_POLICY}
+        environment:
+            - PUID=${UID}
+            - PGID=${GID}
+            - TZ=${TIME_ZONE}
+        volumes:
+            - "${DATA_PATH}:/linkease-data"
+            - "${CONFIG_PATH}:/linkease-config"
+        ports:
+            - ${PORT}:8897
+        network_mode: host

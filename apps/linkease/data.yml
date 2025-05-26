@@ -1,0 +1,14 @@
+additionalProperties:
+  key: linkease
+  name: Linkease
+  tags:
+    - Tool
+  shortDescZh: 多设备之间数据管理的软件。 支持文件、文件夹、文本、图片、视频等多种数据类型。
+  shortDescEn: Linkease is a software for managing data across multiple devices.
+    It supports files, folders, text, images, and videos.
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://www.linkease.com/
+  document: https://doc.linkease.com/zh/guide/linkease/

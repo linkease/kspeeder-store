@@ -1,0 +1,13 @@
+additionalProperties:
+  key: kspeeder
+  name: Kspeeder
+  tags:
+    - Tool
+  shortDescZh: Docker镜像加速专家
+  shortDescEn: Kspeeder is a Docker image acceleration expert.
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://kspeeder.com/
+  document: https://kspeeder.com/guide/getting-started.html

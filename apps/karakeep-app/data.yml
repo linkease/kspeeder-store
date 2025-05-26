@@ -1,0 +1,14 @@
+additionalProperties:
+  key: karakeep-app
+  name: karakeep-app
+  tags:
+    - Tool
+  shortDescZh: Karakeep（之前称为Hoarder）是一个开源的“收藏一切”应用程序，使用人工智能自动标记您输入的内容。
+  shortDescEn: Karakeep (previously Hoarder) is an open source "Bookmark Everything" app that uses AI for automatically tagging the content you throw at it. 
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://karakeep.app/
+  github: https://github.com/karakeep-app/karakeep
+  document: https://docs.karakeep.app/

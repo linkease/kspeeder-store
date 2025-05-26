@@ -1,0 +1,11 @@
+services:
+  kspeeder:
+    image: linkease/kspeeder:latest
+    container_name: ${CONTAINER_NAME}
+    restart: ${RESTART_POLICY}
+    ports:
+      - "${SERVER_PORT}:5443"
+      - "${ADMIN_PORT}:5003"
+    volumes:
+      - ${DATA_PATH}:/kspeeder-data
+      - ${CONFIG_PATH}:/kspeeder-config

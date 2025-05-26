@@ -1,0 +1,64 @@
+additionalProperties:
+  formFields:
+    - default: "always"
+      edit: true
+      envKey: RESTART_POLICY
+      labelEn: Restart Policy
+      labelZh: 重启策略
+      required: true
+      type: select
+      values:
+        - label: "Always"
+          value: "always"
+        - label: "Unless Stopped"
+          value: "unless-stopped"
+        - label: "On Failure"
+          value: "on-failure"
+        - label: "No"
+          value: "no"
+    - default: "./config"
+      edit: true
+      envKey: CONFIG_PATH
+      labelEn: CONFIG Path
+      labelZh: 配置路径
+      required: true
+      type: text
+    - default: "./data"
+      edit: true
+      envKey: DATA_PATH
+      labelEn: Data Path
+      labelZh: 数据路径
+      required: true
+      type: text
+    - default: "Asia/Shanghai"
+      edit: true
+      envKey: TIME_ZONE
+      labelEn: Time Zone
+      labelZh: 时区
+      required: true
+      type: text
+    - default: 0
+      edit: true
+      envKey: UID
+      labelEn: User ID
+      labelZh: User ID
+      required: true
+      type: number
+    - default: 0
+      edit: true
+      envKey: GID
+      labelEn: Group ID
+      labelZh: Group ID
+      required: true
+      type: number
+    - default: "8897"
+      edit: true
+      envKey: PORT
+      labelEn: Port
+      labelZh: 端口
+      required: true
+      rule: paramPort
+      type: number
+      
+      
+      
