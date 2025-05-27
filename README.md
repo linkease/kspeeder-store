@@ -65,13 +65,18 @@ https://github.com/linkease/kspeeder-store
 
 ## 后续
 
-可以试试我们公司的其他软件：
-### 易有云 (私人云盘)
+可以试试我们的其他软件：
+
+[易有云 (私人云盘)](https://www.linkease.com/)
+
 ![易有云](imgs/image_7.png)
 
-### DDNSTO （快速内网穿透）
+[DDNSTO （快速内网穿透）](https://www.kooldns.cn/)
+
 ![DDNSTO](imgs/image_8.png)
-### KSpeeder （docker镜像并发下载加速）
+
+[KSpeeder （docker镜像加速并发下载）](https://kspeeder.com/)
+
 ![KSpeeder](imgs/image_9.png)
 ---
 
