@@ -1,0 +1,15 @@
+services:
+  libretranslate:
+    image: libretranslate/libretranslate:latest
+    container_name: ${CONTAINER_NAME}
+    restart: ${RESTART_POLICY}
+    ports:
+      - "${SERVER_PORT}:5000"
+    volumes:
+      - ${DATA_PATH}:/home/libretranslate/.local
+    environment:
+    #   - LT_API_KEYS=true
+    #   - LT_API_KEYS_DB_PATH=/app/db/api_keys.db # Same result as `db/api_keys.db` or `./db/api_keys.db`
+    ## Uncomment these vars and libretranslate_models volume to optimize loading time.
+    #   - LT_UPDATE_MODELS=true
+      - LT_LOAD_ONLY=${LANGUAGES}

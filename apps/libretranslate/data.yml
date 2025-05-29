@@ -1,0 +1,14 @@
+additionalProperties:
+  key: libretranslate
+  name: libretranslate
+  tags:
+    - Tool
+  shortDescZh: 开源翻译服务
+  shortDescEn: Open source translation service
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 0
+  website: https://libretranslate.com/
+  github: https://github.com/LibreTranslate/LibreTranslate
+  document: https://libretranslate.com/

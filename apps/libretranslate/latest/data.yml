@@ -1,0 +1,45 @@
+additionalProperties:
+  formFields:
+    - default: "always"
+      edit: true
+      envKey: RESTART_POLICY
+      labelEn: Restart Policy
+      labelZh: 重启策略
+      required: true
+      type: select
+      values:
+        - label: "Always"
+          value: "always"
+        - label: "Unless Stopped"
+          value: "unless-stopped"
+        - label: "On Failure"
+          value: "on-failure"
+        - label: "No"
+          value: "no"
+    - default: "./data"
+      edit: true
+      envKey: DATA_PATH
+      labelEn: Data Path
+      labelZh: 数据路径
+      required: true
+      type: text
+    - default: "5000"
+      edit: true
+      envKey: SERVER_PORT
+      labelEn: Server Port
+      labelZh: 服务端口
+      required: true
+      rule: paramPort
+      type: number
+    - default: "en,zh"
+      edit: true
+      envKey: LANGUAGES
+      labelEn: Languages
+      labelZh: 语言
+      required: true
+      type: text
+      
+      
+      
+      
+      
